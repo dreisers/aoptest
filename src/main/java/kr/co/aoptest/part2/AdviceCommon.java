@@ -1,0 +1,12 @@
+package kr.co.aoptest.part2;
+
+public class AdviceCommon {
+	public void commMethod1() {
+		System.out.println("선행 공통메소드1()");
+	}
+	
+	public void commMethod2() {
+		System.out.println("후행 공통메소드2()");
+	}
+	
+}//class end
